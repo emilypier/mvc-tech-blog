@@ -1,0 +1,27 @@
+{
+  "name": "mvc-tech-blog",
+  "version": "1.0.0",
+  "description": "![MIT license](https://img.shields.io/badge/license-MIT-yellow)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilypier/mvc-tech-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilypier/mvc-tech-blog/issues"
+  },
+  "homepage": "https://github.com/emilypier/mvc-tech-blog#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.1"
+  }
+}

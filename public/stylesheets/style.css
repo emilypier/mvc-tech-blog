@@ -13,7 +13,7 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #ddfce1;
+  color: #777777;
   font-weight: bold;
   transition: color .1s;
 }

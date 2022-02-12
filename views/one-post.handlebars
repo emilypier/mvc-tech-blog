@@ -1,0 +1,19 @@
+<div>
+  <h2>{{title}}</h2>
+  <span>{{user.username}} on {{format_date createdAt}}</span>
+  <p>{{post.post_content}}</p>
+</div>
+
+{{#if loggedIn}}
+<section class="">
+  <form id="new-post-form">
+    <label for="content">Content:</label>
+    <textarea id="content"></textarea>
+        <button type="submit" class="btn-style">Submit</button>
+  </form>
+</section>
+{{/if}}
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}

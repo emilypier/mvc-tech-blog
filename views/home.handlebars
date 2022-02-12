@@ -1,8 +1,8 @@
-<ul class="post-list">
-  {{#each posts }}
-  <li>
-    {{title}}
+<ul class="posts-list">
+  {{#each posts}}
+  <li class="post-card">
+    <a href="/post/{{id}}">{{title}}</a>
     <span>{{user.username}} on {{format_date createdAt}}</span>
-  </li>
+  <li>
   {{/each}}
 </ul>

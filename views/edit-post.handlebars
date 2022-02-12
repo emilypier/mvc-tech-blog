@@ -1,10 +1,13 @@
+<h2>Edit your post</h2>
 <form class="edit-post-form">
   <div>
-    <input type="text" value="{{post.title}}">
-    <input type="text" value="{{post.post_content}}">
+    <input class="post-title" type="text" value="{{post.title}}">
+    <input class="post-content" type="text" value="{{post.post_content}}">
   </div>
-      <button type="submit">Save post</button>
-      <button type="button" class="delete-post-btn">Delete post</button>
+  <div class="buttons">
+      <button type="submit" id="save-post-btn" class="btn-style">Save post</button>
+      <button type="delete" id="delete-post-btn" class="btn-style">Delete post</button>
+  </div>
 </form>
 
 <script src="/javascript/edit-post.js"></script>

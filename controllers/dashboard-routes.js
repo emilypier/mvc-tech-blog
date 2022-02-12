@@ -22,10 +22,12 @@ router.get('/', withAuth, (req, res) => {
     });
 });
 
+//make a new post
 router.get('/new', withAuth, (req, res)=>{
-  res.render('newPost', { loggedIn: req.session.loggedIn})
+  res.render('new-post', { loggedIn: req.session.loggedIn})
 })
 
+//edit a post
 router.get('/edit/:id', withAuth, (req, res) => {
   Post.findByPk(req.params.id)
     .then(dbPostData => {

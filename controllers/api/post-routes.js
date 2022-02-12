@@ -13,7 +13,7 @@ router.post('/', withAuth, (req, res)=>{
 });
 
 //update a post
-router.put('/', withAuth, (req, res)=>{
+router.put('/edit/:id', withAuth, (req, res)=>{
   Post.create({...req.body, user_id: req.session.user_id}).then((editedpost)=>{
     res.json(editedpost)
   }).catch((err)=>{
@@ -22,14 +22,17 @@ router.put('/', withAuth, (req, res)=>{
 });
 
 //delete a post
-router.delete('/', withAuth, (req, res)=>{
+router.delete('delete/:id', withAuth, (req, res) => {
   Post.destroy({
     where: {
       id: req.params.id
     }
-  }).catch((err)=>{
-    res.status(500).json(err)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
+
 
 module.exports = router;

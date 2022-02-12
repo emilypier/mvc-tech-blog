@@ -22,7 +22,7 @@ router.put('/edit/:id', withAuth, (req, res)=>{
 });
 
 //delete a post
-router.delete('delete/:id', withAuth, (req, res) => {
+router.delete('/:id', withAuth, (req, res) => {
   Post.destroy({
     where: {
       id: req.params.id

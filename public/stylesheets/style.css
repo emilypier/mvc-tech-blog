@@ -118,15 +118,22 @@ main {
   border-radius: 5px;
   box-shadow: 3px 3px  #adadad;
   color: #ddfce1;
+  width: 110pt;
+  text-align: center;
   font-size: 100%;
   font-weight: bolder;
   transition: color .1s;
   margin-top: 20px;
 }
 
-.posts-container{
+.your-posts-container{
   display: flex;
   flex-direction: column;
+}
+
+.your-posts-container a {
+  margin: 10px;
+  display: inline;
 }
 
 .post {

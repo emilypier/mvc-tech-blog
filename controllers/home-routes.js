@@ -23,17 +23,12 @@ router.get('/', (req, res) => {
 });
 
 //get single post
-router.get('/post/:id', (req, res) => {
+router.get('/posts/:id', (req, res) => {
   Post.findOne({
     where: {
       id: req.params.id
     },
-    attributes: [
-      'id',
-      'title',
-      'title',
-      'created_at',
-    ],
+    attributes: [ 'id', 'title'],
     include: [
       {
         model: Comment,

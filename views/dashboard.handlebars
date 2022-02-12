@@ -1,9 +1,7 @@
-<div class="posts-container">
+<div class="your-posts-container">
   <h2>Your Posts</h2>
   {{#each posts}}
   <a href="/dashboard/edit/{{id}}">{{title}}</a>
   {{/each}}
+  <a href="/dashboard/new" class="btn-style">Create New Post</a>
 </div>
-
-
-<a href="/dashboard/new" class="btn-style">Create New Post</a>

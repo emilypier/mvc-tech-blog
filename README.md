@@ -24,7 +24,7 @@ No installation necessary.
 
 ![Image of blog in action.](/public/assets/tech-blog.png)
 
-[Link]https://warm-lake-26899.herokuapp.com/ to the deployed application.
+[Link]https://lit-hamlet-16524.herokuapp.com/ to the deployed application.
 
 
 ## License

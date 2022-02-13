@@ -3,7 +3,7 @@
 ![MIT license](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Description 
-A CMS-style blog site where a user can publish articles, blog posts, and their thoughts and opinions.
+A CMS-style blog site where a user can publish articles, blog posts, and their thoughts and opinions. allows user to log in with a username and password to create, ed
 
 ## Table of Contents 
 
@@ -18,14 +18,13 @@ A CMS-style blog site where a user can publish articles, blog posts, and their t
 * [Questions](#questions)
 
 ## Installation
-Clone this GitHub repository and install Node.js and Express.js.
+No installation necessary.
 
 ## Usage
-I
 
-![Image of Tech Blog in action.](.png)
+![Image of blog in action.](/public/assets/tech-blog.png)
 
-Watch the walkthrough video [here](link).
+[Link]https://warm-lake-26899.herokuapp.com/ to the deployed application.
 
 
 ## License

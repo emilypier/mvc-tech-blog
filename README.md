@@ -3,7 +3,7 @@
 ![MIT license](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Description 
-A CMS-style blog site where a user can publish articles, blog posts, and their thoughts and opinions. allows user to log in with a username and password to create, ed
+A CMS-style blog site where a user can publish articles, blog posts, and their thoughts and opinions. Allows user to log in with a username and password to create, edit and delte blog posts.
 
 ## Table of Contents 
 
@@ -24,7 +24,7 @@ No installation necessary.
 
 ![Image of blog in action.](/public/assets/tech-blog.png)
 
-[Link]https://lit-hamlet-16524.herokuapp.com/ to the deployed application.
+[Link](https://lit-hamlet-16524.herokuapp.com/) to the deployed application.
 
 
 ## License

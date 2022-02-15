@@ -22,10 +22,9 @@ No installation necessary.
 
 ## Usage
 
-![Image of blog in action.](/public/assets/tech-blog.png)
-
 [Link](https://lit-hamlet-16524.herokuapp.com/) to the deployed application.
 
+![Image of blog in action.](/public/assets/tech-blog.png)
 
 ## License
 This application is covered under MIT license.

@@ -22,7 +22,7 @@ No installation necessary.
 
 ## Usage
 
-[Link](https://lit-hamlet-16524.herokuapp.com/) to the deployed application.
+Here's the [link](https://lit-hamlet-16524.herokuapp.com/) to the deployed application.
 
 ![Image of blog in action.](/public/assets/tech-blog.png)
 
@@ -41,4 +41,4 @@ This application is covered under MIT license.
 ## Questions
 Made by Emily Pierson.
 If you have questions, you can reach me at piersoee@gmail.com. 
-Visit my GitHub: https://github.com/emilypier
+Visit my [GitHub](https://github.com/emilypier).
